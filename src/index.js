@@ -17,7 +17,7 @@ import JumpToPathPlugin from "./plugins/jump-to-path"
 import SplitPaneModePlugin from "./plugins/split-pane-mode"
 import ASTPlugin from "./plugins/ast"
 import ImmutableBlock from "./plugins/immutable-block"
-
+import ValidateRollunSemantic from "./plugins/validate-rollun-semantic"
 // eslint-disable-next-line no-undef
 const {GIT_DIRTY, GIT_COMMIT, PACKAGE_VERSION} = buildInfo
 
@@ -38,7 +38,8 @@ const plugins = {
   JumpToPathPlugin,
   SplitPaneModePlugin,
   ASTPlugin,
-  ImmutableBlock
+  ImmutableBlock,
+  ValidateRollunSemantic
 }
 
 const defaults = {
